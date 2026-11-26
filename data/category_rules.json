@@ -1,0 +1,83 @@
+{
+  "priority_order": [
+    "vest_accessories",
+    "jacket",
+    "apparel",
+    "backpack"
+  ],
+  "rules": {
+    "vest_accessories": [
+      "vest",
+      "hydropack",
+      "rompi",
+      "gaiter",
+      "pelindung kaki",
+      "handsock",
+      "arm sleeve",
+      "manset",
+      "topi",
+      "cap",
+      "matras",
+      "trekking pole",
+      "rain cover",
+      "agile 5",
+      "bold",
+      "ampera",
+      "sandal",
+      "sendal",
+      "sarung tangan",
+      "fetlar",
+      "kupluk",
+      "beanie"
+    ],
+    "jacket": [
+      "jaket",
+      "jacket",
+      "windbreaker",
+      "windproof",
+      "waterproof",
+      "gorpcore",
+      "polar",
+      "lucania",
+      "estrella",
+      "leuser",
+      "waucoba",
+      "etna",
+      "kinabalu"
+    ],
+    "apparel": [
+      "celana",
+      "pants",
+      "short",
+      "kaos",
+      "t-shirt",
+      "kemeja",
+      "jersey",
+      "dry fit",
+      "daftel",
+      "refugio",
+      "intervention"
+    ],
+    "backpack": [
+      "carrier",
+      "ransel",
+      "backpack",
+      "daypack",
+      "tas gunung",
+      "tas traveling",
+      "tas slempang",
+      "tote pack",
+      "shoulder bag",
+      "morgan",
+      "argopuro",
+      "sniper",
+      "chumbu",
+      "rajamala",
+      "waist bag",
+      "tas pinggang",
+      "tas selempang",
+      "hand bag",
+      "sling bag"
+    ]
+  }
+}

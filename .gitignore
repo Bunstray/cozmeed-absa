@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+data/raw/*.json
+data/raw/**/*.json
+data/processed/*.parquet
+data/processed/*.db
+data/labeled/*.csv
+data/labeled/*.parquet
+models/*
+!models/.gitkeep

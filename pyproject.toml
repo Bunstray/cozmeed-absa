@@ -1,0 +1,35 @@
+[project]
+name = "cozmeed-absa"
+version = "0.1.0"
+description = "Aspect-Based Sentiment Analysis for Cozmeed Outdoor Gear Reviews"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.5.0",
+    "transformers>=4.46.0",
+    "scikit-learn>=1.5.0",
+    "pandas>=2.2.0",
+    "pyarrow>=18.0.0",
+    "fastapi[standard]>=0.115.0",
+    "streamlit>=1.40.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.7.0",
+]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
